@@ -1,0 +1,39 @@
+# Ignore node_modules and log files
+node_modules
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Ignore build directories
+.next
+out
+
+# Ignore dotenv files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignore lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore miscellaneous files
+*.swp
+*.bak
+*.tmp
+*.log
+
+# Ignore test directories
+__tests__
+__mocks__
+coverage
+
+# Ignore editor directories and files
+.vscode/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
